@@ -1,0 +1,38 @@
+-	resource:	Borealis Dataverse Community
+	url:	https://borealisdata.ca/
+	description:	"Borealis, the Canadian Dataverse Repository, is a bilingual, multi-disciplinary, secure, Canadian research data repository, supported by academic libraries and research institutions across Canada. Borealis supports open discovery, management, sharing, and preservation of Canadian research data.<br>Borealis is available to researchers who are affiliated with a participating Canadian university or research organization and their collaborators. Borealis is a shared service provided in partnership with Canadian regional academic library consortia, institutions, research organizations, and the Digital Research Alliance of Canada, with technical infrastructure hosted by Scholars Portal and the University of Toronto Libraries."
+	ed:	
+	prof:	
+	skills:	
+	ethics:	
+	tools:	
+	dmsp:	
+	repos:	
+	communities:	
+	orgs:	Yes
+
+-	resource:	CANLIB-DATA listserve (Canada)
+	url:	https://researchdata.library.ubc.ca/learn/canlib-data-listserv/
+	description:	"CANLIB-DATA is a listserv for issues related to research data in Canadian libraries, with more than 350 subscribers."
+	ed:	
+	prof:	
+	skills:	
+	ethics:	
+	tools:	
+	dmsp:	
+	repos:	
+	communities:	Yes
+	orgs:	Yes
+
+-	resource:	Carpentries
+	url:	https://carpentries.org/
+	description:	The Carpentries, formerly two separate organizations of Software Carpentry and Data Carpentry, is an organization dedicated to improving computational skills of researchers. They provide instructors, administrators, and curriculum for intensive workshops geared to teach researchers computational skills needed to create  automated, and often reproducible, research. More than workshop oriented, The Carpentries promote a community of practice to support researchers with the technical skills and knowledge necessary to conduct efficient automated research. 
+	ed:	Yes
+	prof:	
+	skills:	
+	ethics:	
+	tools:	
+	dmsp:	
+	repos:	
+	communities:	Yes
+	orgs:	Yes

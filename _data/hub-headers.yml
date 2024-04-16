@@ -1,39 +1,39 @@
-- title: Educational materials and curriculum
+- title: Educational Materials and Curriculum
   abbv: ed
-  description: 
+  description: "Preferred research data educational materials and curriculum that RDAP members to use to teach their users/patrons."
 
-- title: Prof Dev training materials
+- title: Professional Development Training Resources
   abbv: prof
-  description: 
+  description: "Research data training resources which RDAP members use to teach themselves how to do data work."
 
-- title:  Reference (skills)
+- title:  Reference Materials for Skills
   abbv: skills
-  description:  
+  description:  "Practice resources with useful information that are used regularly for reference."
 
-- title:  Reference (data ethics)
+- title:  Reference Materials for Data Ethics
   abbv: ethics
-  description:  
+  description:  "Websites, books, and other reference materials used to educate on data ethics."
     
-- title:  Data tools
+- title:  Data Tools
   abbv: tools
-  description:  
+  description:  "Favorite data tools used for data organization, cleaning, management, analysis, etc."
     
-- title:  DMSP references
+- title:  DMSP References
   abbv: dmsp
-  description:  
+  description:  "Funder requirement resources for DMSPs. These include both specific funder pages and well-maintained campus data service or other organization websites."
     
-- title:  Repository guidelines
+- title:  Repository Guidelines
   abbv: repos
-  description:  
+  description:  "Guidelines for repositories and other data related services commonly provided by data librarians and other data professionals."
     
 
-- title:  Data communities of practice
+- title:  Data Communities of Practice
   abbv: communities
-  description:  
+  description:  "Trusted research data communities of practice."
     
 
 - title:  Professional Data Organizations
   abbv: orgs
-  description:  
+  description:  "Professional data communities many members belong to, which represent a more complete RDM network."
     
 

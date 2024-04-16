@@ -1,0 +1,62 @@
+---
+layout: default
+permalink: /hub-expand
+title: Hub Expandible List
+published: true
+---
+<div id="expandible-area">
+<!-- Button to open all sections -->
+<button id="openAll">Open All</button>
+<!-- Button to close all sections -->
+<button id="closeAll">Close All</button>
+<!-- Collapsible Section 1 -->
+{% for header in site.data.hub-headers %}
+  <button class="collapsible">{{ header.title }}</button>
+  <div class="content">
+    {% for resource in site.data.hub-resources %}
+      {% for type in resource.cat %}
+        {%- if type.type == header.abbv -%}
+          <p class="header">
+            <a href="{{resource.url}}" target="_blank"  title="link to {{resource.resource}}">{{resource.resource}}</a></p>
+          <p class="description">{{resource.description}}</p>
+        {%- endif -%}
+      {% endfor %}
+    {% endfor %}
+  </div>
+  <hr>
+{% endfor %}
+
+</div>
+<script>
+  // Get all collapsible elements
+  var coll = document.getElementsByClassName("collapsible");
+
+  // Attach click event listeners to each collapsible element
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+
+  // Function to open all sections
+  document.getElementById("openAll").addEventListener("click", function() {
+    for (var i = 0; i < coll.length; i++) {
+      coll[i].classList.add("active");
+      coll[i].nextElementSibling.style.display = "block";
+    }
+  });
+
+  // Function to close all sections
+  document.getElementById("closeAll").addEventListener("click", function() {
+    for (var i = 0; i < coll.length; i++) {
+      coll[i].classList.remove("active");
+      coll[i].nextElementSibling.style.display = "none";
+    }
+  });
+</script>

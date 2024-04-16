@@ -1,44 +1,289 @@
-- resource: Borealis Dataverse Community 
-  url: https://borealisdata.ca/ 
-  description: "Borealis, the Canadian Dataverse Repository, is a bilingual, multi-disciplinary, secure, Canadian research data repository, supported by academic libraries and research institutions across Canada. Borealis supports open discovery, management, sharing, and preservation of Canadian research data.<br><br>Borealis is available to researchers who are affiliated with a participating Canadian university or research organization and their collaborators. Borealis is a shared service provided in partnership with Canadian regional academic library consortia, institutions, research organizations, and the Digital Research Alliance of Canada, with technical infrastructure hosted by Scholars Portal and the University of Toronto Libraries."
-  cat: [  
-	  {type:  orgs }
+- resource: Borealis Dataverse Community
+  url: https://borealisdata.ca/
+  description: "\"Borealis, the Canadian Dataverse Repository, is a bilingual, multi-disciplinary, secure, Canadian research data repository, supported by academic libraries and research institutions across Canada. Borealis supports open discovery, management, sharing, and preservation of Canadian research data.<br><br>Borealis is available to researchers who are affiliated with a participating Canadian university or research organization and their collaborators. Borealis is a shared service provided in partnership with Canadian regional academic library consortia, institutions, research organizations, and the Digital Research Alliance of Canada, with technical infrastructure hosted by Scholars Portal and the University of Toronto Libraries.\""
+  cat: [ 
+   {type:  orgs }
     ]
 
-- resource: CANLIB-DATA listserve (Canada) 
-  url: https://researchdata.library.ubc.ca/learn/canlib-data-listserv/ 
-  description: "CANLIB-DATA is a listserv for issues related to research data in Canadian libraries, with more than 350 subscribers." 
+- resource: CANLIB-DATA listserve (Canada)
+  url: https://researchdata.library.ubc.ca/learn/canlib-data-listserv/
+  description: "\"CANLIB-DATA is a listserv for issues related to research data in Canadian libraries, with more than 350 subscribers.\""
   Cat: [  {type:  communities },
   {type:  orgs }
     ]
 
-- resource: Carpentries 
-  url: https://carpentries.org/ 
-  description: The Carpentries, formerly two separate organizations of Software Carpentry and Data Carpentry, is an organization dedicated to improving computational skills of researchers. They provide instructors, administrators, and curriculum for intensive workshops geared to teach researchers computational skills needed to create  automated, and often reproducible, research. More than workshop oriented, The Carpentries promote a community of practice to support researchers with the technical skills and knowledge necessary to conduct efficient automated research.  
-  cat: [  
+- resource: Carpentries
+  url: https://carpentries.org/
+  description: The Carpentries, formerly two separate organizations of Software Carpentry and Data Carpentry, is an organization dedicated to improving computational skills of researchers. They provide instructors, administrators, and curriculum for intensive workshops geared to teach researchers computational skills needed to create  automated, and often reproducible, research. More than workshop oriented, The Carpentries promote a community of practice to support researchers with the technical skills and knowledge necessary to conduct efficient automated research. 
+  cat: [ 
   {type:  ed },
   {type:  communities },
   {type:  orgs }
     ]
 
-- resource: CoreTrustSeal 
-  url: https://www.coretrustseal.org/ 
-  description: CoreTrustSeal is a Dutch NGO (https://doi.org/10.5281/zenodo.5025884) whose principle objective is to provide certification and standards for data repositories.  "The CoreTrustSeal Requirements describe the characteristics required to be a trustworthy repository for digital data and metadata." There are currently 16 requirements, which cover organizational mission and infrastructure; digital object management; and, technical infrastructure, integrity, and security of the data repository to ensure continuity and resilience of the repository. (https://doi.org/10.5281/zenodo.7051012). The CoreTrustSeal organization also mantains a list of certified data repositories. 
-  cat: [  
+- resource: CoreTrustSeal
+  url: https://www.coretrustseal.org/
+  description: CoreTrustSeal is a Dutch NGO (https://doi.org/10.5281/zenodo.5025884) whose principle objective is to provide certification and standards for data repositories.  "The CoreTrustSeal Requirements describe the characteristics required to be a trustworthy repository for digital data and metadata." There are currently 16 requirements, which cover organizational mission and infrastructure; digital object management; and, technical infrastructure, integrity, and security of the data repository to ensure continuity and resilience of the repository. (https://doi.org/10.5281/zenodo.7051012). The CoreTrustSeal organization also mantains a list of certified data repositories.
+  cat: [ 
   {type:  repos }
     ]
 
 - resource: "Cornell's Data Services"
-  url: https://data.research.cornell.edu/ 
-  description: Cornell Data Services provides exemplar website with data management reference materials on all aspects of research data management.  (Also, check out their Storage Finder tool if your institution uses Drupal) 
-  cat: [  
+  url: https://data.research.cornell.edu/
+  description: Cornell Data Services provides exemplar website with data management reference materials on all aspects of research data management.  (Also, check out their Storage Finder tool if your institution uses Drupal)
+  cat: [ 
   {type:  skills }
     ]
 
-
-- resource: "Cornell's Guide to writing “readme” style metadata" 
-  url: https://data.research.cornell.edu/data-management/sharing/readme/ 
-  description: A good README is hard to create if you haven't seen a good one before, especially for data. Cornell Data Services provides a README template and list of best practices and recommended content for these important files. 
-  cat: [  
+- resource: "Cornell's Guide to writing “readme” style metadata"
+  url: https://data.research.cornell.edu/data-management/sharing/readme/
+  description: A good README is hard to create if you haven't seen a good one before, especially for data. Cornell Data Services provides a README template and list of best practices and recommended content for these important files.
+  cat: [ 
   {type:  ed }
     ]
+
+- resource: Cornell's README template
+  url: https://cornell.app.box.com/v/ReadmeTemplate
+  description: A good README is hard to create if you haven't seen a good one before, especially for data. Cornell Data Services provides a README template and list of best practices and recommended content for these important files.
+  cat: [ 
+  {type:  ed }
+   ]
+
+- resource: Data Curation Network
+  url: https://datacurationnetwork.org/
+  description: "\"The Data Curation Network (DCN) is a membership organization of institutional and non-profit data repositories whose vision is to advance open research by making data more ethical, reusable, and understandable.\""
+  cat: [ 
+
+  {type:  communities },
+  {type:  orgs }
+   ]
+
+- resource: "Data Curation Network: CURATE(D)"
+  url: https://datacurationnetwork.org/outputs/workflows/
+  description: "\"The DCN developed a standardized set of C-U-R-A-T-E-D steps and checklists to ensure that all datasets submitted to the Network receive consistent treatment.\"  These steps provide a well established and robust model for curation and teaching. The steps are used to onboard data curators, teach researchers how to take care of their data to facilitate sharing, and assist with critical decisions. "
+  cat: [ 
+
+  {type:  repos }
+   ]
+
+- resource: "Data Curation Network: Primers"
+  url: https://datacurationnetwork.org/outputs/data-curation-primers/
+  description: DCN's primers are "peer-reviewed, living documents that detail a specific subject, disciplinary area or curation task and that can be used as a reference to curate research data."
+  cat: [ 
+  {type:  prof },
+  {type:  skills }
+   ]
+
+- resource: Data Feminism
+  url: https://data-feminism.mitpress.mit.edu/
+  description: 
+  cat: [ 
+  {type:  ethics }
+   ]
+
+- resource: DataCure Slack
+  url: datacure.slack.com
+  description: "\"DataCure is an informal group of librarians and other information professionals whose members have significant roles or responsibilities in providing services in managing or curating research data.  Datacure exists to provide a safe space for data professionals to talk frankly about their ideas, projects, successes, and struggles with their work.\"<br><br>\"Datacure exists to provide a safe space for data professionals to talk frankly about their ideas, projects, successes, and struggles with their work.<br><br>We abide by the Code of Conduct see http://bit.ly/3wRw3YP\" (please ask for a link when needed as they expire in 30 days)"
+  cat: [ 
+
+  {type:  communities }
+   ]
+
+- resource: Digital Research Alliance of Canada - Learning & Resources
+  url: https://alliancecan.ca/en/services/research-data-management/learning-resources
+  description: The Digital Research Alliance of Canada is a Canadian government funded NGO whose mandate is "to transform how research across all academic disciplines is organized, managed, stored and used." They provide tools, training, and resources that cover all aspects of research data management.
+  cat: [ 
+  {type:  ed },
+  {type:  prof },
+
+   ]
+
+- resource: DMPTool
+  url: https://dmptool.org/
+  description: The DMPTool helps create data management plans (DMPs), providing guidance anywhere from a general data plan used for an individual research project to specific funder requirements.  The DMPTool is free to use, which allows anyone to access the reference materials and general guidance.
+  cat: [ 
+  {type:  ed },
+  {type:  prof },
+  {type:  skills },
+  {type:  tools },
+  {type:  dmsp }
+   ]
+
+- resource: Excel
+  url: https://www.microsoft.com/en-us/microsoft-365/excel
+  description: "Excel is a standard and ubuiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
+  cat: [ 
+    {type:  tools }
+  ]
+
+- resource: "Excel: LinkedIn Learning (excel) - institutional subscription"
+  url: 
+  description: "Excel is a standard and ubuiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
+  cat: [ 
+  {type:  prof }
+   ]
+
+- resource: FAIR Principles
+  url: https://www.go-fair.org/fair-principles/
+  description: "\"In 2016, the ‘FAIR Guiding Principles for scientific data management and stewardship’ were published in Scientific Data. The authors intended to provide guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data.\""
+  cat: [ 
+  {type:  repos }
+   ]
+
+- resource: File Naming Formula
+  url: https://repository.upenn.edu/handle/20.500.14332/58846
+  description: "\"<i>What's in a name? That which we call a rose<br>
+By any other name would smell as sweet\"<br>
+but names of files cause a different type <br>
+of problem where inconsistency will<br>
+obscure findability and throw the<br>
+sorting and organization into<br>
+disarray. Use this template to think through<br>
+your research and the convention used to<br>
+create clear logical project file names. </i>
+"
+  cat: [ 
+  {type:  ed }
+   ]
+
+- resource: "GIDA: CARE"
+  url: https://www.gida-global.org/care
+  description: CARE stands for Collective Benefit, Authority to Control, Responsibility, and Ethics. The CARE principles are foundational to Indigenous Data Governance, but the overall guidance is good practice when working with any human-subject or related data.  They were developed by the Global Indigenous Data Alliance (GIDA) to complement FAIR principles.
+  cat: [ 
+  {type:  repos }
+   ]
+
+- resource: "GIDA: Indigenous Peoples' Rights in Data"
+  url: https://www.gida-global.org/data-rights
+  description: The Global Indigenous Data Alliance (GIDA) is an international network of Indigenous researchers, data practitioners, and policy activists who promote Indigenous control of Indigenous data.  They developed Indigenous Peoples' Rights in Data, se set of rights associating data with governance and governance with data. 
+  cat: [ 
+  {type:  ethics }
+   ]
+
+- resource: IASSIST
+  url: https://iassistdata.org
+  description: "\"IASSIST (International Association for Social Science Information Service and Technology) is an international organization of professionals working with information technology and data services to support research and teaching.\"  IASSIST provides learning and networking opportunities, including an annual conference, quarterly publication, and webinars.  The IASSIST community is very responsive to research data related questions posted on their listserv. "
+  cat: [ 
+  {type:  communities },
+  {type:  orgs }
+   ]
+
+- resource: ICPSR Guide to Social Science Data Preparation & Archiving
+  url: https://www.icpsr.umich.edu/web/pages/deposit/guide/
+  description: "ICPSR's introductory guide to social science data \"best practice throughout the data lifecycle\"."
+  cat: [ 
+  {type:  ed },
+  {type:  skills }
+   ]
+
+- resource: Midwest Data Librarian Symposium event & listserv
+  url: https://mwdatalibrariansymposium.wordpress.com/
+  description: "\"An unconference for data and librarians\" and accompanying listserv"
+  cat: [ 
+  {type:  orgs }
+   ]
+
+- resource: New England Collaborative Data Management Curriculum
+  url: https://library.umassmed.edu/resources/necdmc/index
+  description: "\"NECDMC is an instructional tool for teaching data management best practices to undergraduates, graduate students, and researchers in the health sciences, sciences, and engineering disciplines.\" Includes seven online instructional modules."
+  cat: [ 
+  {type:  ed },
+  {type:  prof }
+   ]     
+
+- resource: "NIH: 2023 NIH Data Management and Sharing Policy"
+  url: https://oir.nih.gov/sourcebook/intramural-program-oversight/intramural-data-sharing/2023-nih-data-management-sharing-policy
+  description: The NIH issued a Data Management and Sharing (DMS) policy, effective January 25, 2023, to promote the sharing of scientific data. 
+  cat: [ 
+  {type:  prof },
+  {type:  skills },
+  {type:  tools },
+  {type:  dmsp }
+   ]
+
+- resource: NNLM National Center for Data Services
+  url: https://www.nnlm.gov/about/centers/ncds
+  description: The NNLM National Center for Data Services (NCDS) coordinates with other NNLM Regions, Offices, and Centers to provide training and resources to increase data science capacity among information professionals."
+  cat: [ 
+  {type:  prof }
+   ]
+
+- resource: OpenRefine
+  url: https://openrefine.org
+  description: "\"OpenRefine is a powerful free, open source tool for working with messy data: cleaning it; transforming it from one format into another; and extending it with web services and external data.\""
+  cat: [ 
+  {type:  tools }
+   ]
+
+- resource: RDAP
+  url: https://rdapassociation.org/
+  description: "\"RDAP (Research Data Access & Preservation) supports an engaged community of information professionals committed to creating, maintaining, advancing, and teaching best practices for research data, access, and preservation.\""
+  cat: [ 
+  {type:  communities },
+  {type:  orgs }
+   ]
+
+- resource: Research Data Alliance (RDA)
+  url: https://rd-alliance.org/
+  description: "\"With members from 151 countries, the RDA provides a neutral space where its members can come together to develop and adopt infrastructure that promotes data-sharing and data-driven research.\""
+  cat: [ 
+  {type:  orgs }
+   ]     
+
+- resource: Research Data Management Workbook
+  url: https://caltechlibrary.github.io/RDMworkbook/
+  description: "Kristin Briney's online workbook \"of exercises for researchers to improve their data management.\" Briney, K. (2023). The Research Data Management Workbook. Caltech Library. https://doi.org/10.7907/z6czh-7zx60"
+  cat: [ 
+  {type:  ed },
+  {type:  prof }
+   ]
+
+- resource: Southeast Data Librarian Symposium
+  url: https://se-datalibrarian.github.io/
+  description: "SEDLS includes \"workshops, short presentations, and networking opportunities...open to all who wish to attend, including students, data managers, and data scientists\""
+  cat: [ 
+  {type:  orgs }
+   ]
+
+- resource: SPARC Data Sharing Requirements
+  url: https://datasharing.sparcopen.org/data/
+  description: "\"Community resource for tracking, comparing, and understanding current U.S. federal funder research data sharing policies.\""
+  cat: [ 
+  {type:  dmsp }
+   ]
+
+- resource: Taguette, the free and open-source qualitative data analysis tool
+  url: https://www.taguette.org/
+  description: "\"Taguette is a free and open-source tool for qualitative research. You can import your research materials, highlight and tag quotes, and export the results.\""
+  cat: [ 
+  {type:  tools }
+   ]
+
+- resource: The First Nations Principles of OCAP
+  url: https://fnigc.ca/ocap-training/
+  description: "\"The First Nations principles of ownership, control, access, and possession – more commonly known as OCAP® – assert that First Nations have control over data collection processes, and that they own and control how this information can be used.\""
+  cat: [ 
+  {type:  ethics }
+   ]
+
+- resource: The Turing Way
+  url: https://book.the-turing-way.org/
+  description: "\"Handbook to reproducible, ethical and collaborative data science,\" created by the Turing Way project, which is open source, open collaboration, and community-driven."
+  cat: [ 
+  {type:  ed }
+   ]
+
+- resource: We all Count
+  url: https://weallcount.com/
+  description: "\"Project to increase equity in data science.\""
+  cat: [ 
+  {type:  ethics }
+   ]
+
+- resource: Working Group on NIH DMSP Guidance
+  url: https://osf.io/uadxr/
+  description: "OSF project \"collects implementation guidance for the NIH Data Management and Sharing Policy (2023)\" organized by the working group."
+  cat: [ 
+  {type:  dmsp }
+   ]
+

@@ -111,14 +111,14 @@
 
 - resource: Excel
   url: https://www.microsoft.com/en-us/microsoft-365/excel
-  description: "Excel is a standard and ubuiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
+  description: "Excel is a standard and ubiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
   cat: [ 
     {type:  tools }
   ]
 
 - resource: "Excel: LinkedIn Learning (excel) - institutional subscription"
   url: 
-  description: "Excel is a standard and ubuiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
+  description: "Excel is a standard and ubiquitous spreadsheet application, used by many researchers. Learning the capabilities such as functions, pivot tables, (how it works with dates), and visualizations are essential to helping researchers.  If your institution has access, LinkedIn Learning provides tutorials.  For a broader overview of working with tabular data, try the Data Carpentry lesson Data Organization in Spreadsheets (https://datacarpentry.org/spreadsheet-ecology-lesson/), which also covers how to with dates."
   cat: [ 
   {type:  prof }
    ]

@@ -22,12 +22,12 @@ title: Kat's RDAP Education and Resources Committee repo
 email: you-dont-need@my-email.com
 description: >- # this means to ignore newlines until "baseurl:"
   A basic webpage to demonstrate possible web layouts for the RDAP E&R Committee
-baseurl: "/rdap-erc" # the subpath of your site, e.g. /blog
-url: "kekoziar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "kekoziar.github.io/rdap-erc" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: is-anyone-there-anymore?
 github_username:  kekoziar
 
-include: ['_hub_pages']
+include: ['_pages']
 
 plugins:
   - jekyll-sitemap

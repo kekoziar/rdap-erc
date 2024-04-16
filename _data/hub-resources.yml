@@ -1,38 +1,44 @@
--	resource:	Borealis Dataverse Community
-	url:	https://borealisdata.ca/
-	description:	"Borealis, the Canadian Dataverse Repository, is a bilingual, multi-disciplinary, secure, Canadian research data repository, supported by academic libraries and research institutions across Canada. Borealis supports open discovery, management, sharing, and preservation of Canadian research data.<br>Borealis is available to researchers who are affiliated with a participating Canadian university or research organization and their collaborators. Borealis is a shared service provided in partnership with Canadian regional academic library consortia, institutions, research organizations, and the Digital Research Alliance of Canada, with technical infrastructure hosted by Scholars Portal and the University of Toronto Libraries."
-	ed:	
-	prof:	
-	skills:	
-	ethics:	
-	tools:	
-	dmsp:	
-	repos:	
-	communities:	
-	orgs:	Yes
+- resource: Borealis Dataverse Community 
+  url: https://borealisdata.ca/ 
+  description: "Borealis, the Canadian Dataverse Repository, is a bilingual, multi-disciplinary, secure, Canadian research data repository, supported by academic libraries and research institutions across Canada. Borealis supports open discovery, management, sharing, and preservation of Canadian research data.<br><br>Borealis is available to researchers who are affiliated with a participating Canadian university or research organization and their collaborators. Borealis is a shared service provided in partnership with Canadian regional academic library consortia, institutions, research organizations, and the Digital Research Alliance of Canada, with technical infrastructure hosted by Scholars Portal and the University of Toronto Libraries."
+  cat: [  
+	  {type:  orgs }
+    ]
 
--	resource:	CANLIB-DATA listserve (Canada)
-	url:	https://researchdata.library.ubc.ca/learn/canlib-data-listserv/
-	description:	"CANLIB-DATA is a listserv for issues related to research data in Canadian libraries, with more than 350 subscribers."
-	ed:	
-	prof:	
-	skills:	
-	ethics:	
-	tools:	
-	dmsp:	
-	repos:	
-	communities:	Yes
-	orgs:	Yes
+- resource: CANLIB-DATA listserve (Canada) 
+  url: https://researchdata.library.ubc.ca/learn/canlib-data-listserv/ 
+  description: "CANLIB-DATA is a listserv for issues related to research data in Canadian libraries, with more than 350 subscribers." 
+  Cat: [  {type:  communities },
+  {type:  orgs }
+    ]
 
--	resource:	Carpentries
-	url:	https://carpentries.org/
-	description:	The Carpentries, formerly two separate organizations of Software Carpentry and Data Carpentry, is an organization dedicated to improving computational skills of researchers. They provide instructors, administrators, and curriculum for intensive workshops geared to teach researchers computational skills needed to create  automated, and often reproducible, research. More than workshop oriented, The Carpentries promote a community of practice to support researchers with the technical skills and knowledge necessary to conduct efficient automated research. 
-	ed:	Yes
-	prof:	
-	skills:	
-	ethics:	
-	tools:	
-	dmsp:	
-	repos:	
-	communities:	Yes
-	orgs:	Yes
+- resource: Carpentries 
+  url: https://carpentries.org/ 
+  description: The Carpentries, formerly two separate organizations of Software Carpentry and Data Carpentry, is an organization dedicated to improving computational skills of researchers. They provide instructors, administrators, and curriculum for intensive workshops geared to teach researchers computational skills needed to create  automated, and often reproducible, research. More than workshop oriented, The Carpentries promote a community of practice to support researchers with the technical skills and knowledge necessary to conduct efficient automated research.  
+  cat: [  
+  {type:  ed },
+  {type:  communities },
+  {type:  orgs }
+    ]
+
+- resource: CoreTrustSeal 
+  url: https://www.coretrustseal.org/ 
+  description: CoreTrustSeal is a Dutch NGO (https://doi.org/10.5281/zenodo.5025884) whose principle objective is to provide certification and standards for data repositories.  "The CoreTrustSeal Requirements describe the characteristics required to be a trustworthy repository for digital data and metadata." There are currently 16 requirements, which cover organizational mission and infrastructure; digital object management; and, technical infrastructure, integrity, and security of the data repository to ensure continuity and resilience of the repository. (https://doi.org/10.5281/zenodo.7051012). The CoreTrustSeal organization also mantains a list of certified data repositories. 
+  cat: [  
+  {type:  repos }
+    ]
+
+- resource: "Cornell's Data Services"
+  url: https://data.research.cornell.edu/ 
+  description: Cornell Data Services provides exemplar website with data management reference materials on all aspects of research data management.  (Also, check out their Storage Finder tool if your institution uses Drupal) 
+  cat: [  
+  {type:  skills }
+    ]
+
+
+- resource: "Cornell's Guide to writing “readme” style metadata" 
+  url: https://data.research.cornell.edu/data-management/sharing/readme/ 
+  description: A good README is hard to create if you haven't seen a good one before, especially for data. Cornell Data Services provides a README template and list of best practices and recommended content for these important files. 
+  cat: [  
+  {type:  ed }
+    ]

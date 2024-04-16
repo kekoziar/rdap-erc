@@ -1,8 +1,39 @@
--	title:	Educational materials/ curriculum
-	abbv:	ed
-	description:	
+- title: Educational materials and curriculum
+  abbv: ed
+  description: 
 
--	title:	Prof Dev training materials
-	abbv:	prof
-	description:	
+- title: Prof Dev training materials
+  abbv: prof
+  description: 
+
+- title:  Reference (skills)
+  abbv: skills
+  description:  
+
+- title:  Reference (data ethics)
+  abbv: ethics
+  description:  
+    
+- title:  Data tools
+  abbv: tools
+  description:  
+    
+- title:  DMSP references
+  abbv: dmsp
+  description:  
+    
+- title:  Repository guidelines
+  abbv: repos
+  description:  
+    
+
+- title:  Data communities of practice
+  abbv: communities
+  description:  
+    
+
+- title:  Professional Data Organizations
+  abbv: orgs
+  description:  
+    
 

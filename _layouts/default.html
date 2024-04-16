@@ -1,6 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Style for the collapsible sections */
+  .collapsible {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+  }
+
+  .content {
+    font-family: "Arial", sans-serif;
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .header {
+  font-size: 18px; 
+  font-weight: bold; 
+  color: #333;
+  text-transform: uppercase; 
+  margin-bottom: 10px; 
+  
+}
+
+  .description {
+  //font-size: 14px;
+  color: #333; 
+  margin-bottom: 10px; 
+  
+}
+
+  /* Style for the button to open/close all sections */
+  #openAll, #closeAll {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
   <body>
-    <p>home</p>
+    
+    {{ content }}
   </body>
 </html>

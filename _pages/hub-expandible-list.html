@@ -11,7 +11,7 @@ published: true
 <button id="closeAll">Close All</button>
 <!-- Collapsible Section 1 -->
 {% for header in site.data.hub-headers %}
-  <button class="collapsible">{{ header.title }}<br><p style="font-size: 16px;"><i>{{ header.description }}</i></p></button>
+  <button class="collapsible">{{ header.title }}<div style="font-size: 10px;"><i>click to open/close section</i></div><br><p style="font-size: 16px;"><i>{{ header.description }}</i></p></button>
   <div class="content">
     {% for resource in site.data.hub-resources %}
       {% for type in resource.cat %}
